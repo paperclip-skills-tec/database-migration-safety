@@ -186,3 +186,7 @@ Before setting a migration-touching PR to `in_review`:
 | Missing index on FK | FK added in a hurry | Index immediately below every FK `ALTER TABLE` statement |
 | Non-idempotent migration fails CI reset | `IF NOT EXISTS` omitted | Template: start every DDL statement with the idempotency guard |
 | Ordering conflict after merge | Two branches with sequential numeric prefixes | Check `git log --all -- migrations/` before creating a new file |
+
+---
+
+*TEC Custom Skill — maintained by the Deltek Technical Services Engineering team.*
